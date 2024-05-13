@@ -1,0 +1,25 @@
+services:
+  host_1:
+    image: ansible_managed_node:latest
+    networks:
+      - ansible_network
+    ports:
+      - "2221:22"
+
+  host_2:
+    image: ansible_managed_node:latest
+    networks:
+      - ansible_network
+    ports:
+      - "2222:22"
+
+  host_3:
+    image: ansible_managed_node:latest
+    networks:
+      - ansible_network
+    ports:
+      - "2223:22"
+
+networks:
+  ansible_network:
+    driver: bridge
