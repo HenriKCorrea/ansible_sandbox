@@ -1,3 +1,7 @@
+# Ansible Sandbox
+
+Test and make experiments of Ansible automation features with minimalist Docker containers acting as managed nodes, ready to connect with host, acting as controller node.
+
 # Requirements
 
 Ansible works fine on Linux distributions.
